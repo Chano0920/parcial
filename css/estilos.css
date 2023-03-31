@@ -1,0 +1,178 @@
+.padre{
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+
+.barra-superior{
+    display: flex;
+    
+}
+
+
+
+.links-barrasuperior{
+    margin-top: 1%;
+    margin-left: 20%;
+    width: 100%;
+}
+
+.links-barrasuperior > a{
+    
+    padding-left: 3%;
+    text-decoration: none;
+}
+
+.contenido1{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.titulo1{
+    color:#070B56;
+}
+
+.titulo2{
+    color: #070B56;
+    font-weight: bold;
+}
+.div-imagenes-pequenas{
+    margin-left: 20%;
+}
+.imagen-texto{
+    display: flex;
+    width: 100%;
+    
+}
+
+.imagen-texto > img{
+    width: 25%;
+    height: 25%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.contenido2{
+    width: 100%;
+    height: 40%;
+}
+
+.contenido2 > img{
+    width: 100%;
+    height: 100%;
+}
+
+.padre2{
+    display: grid;
+    
+    grid-template-columns: 20% 80%;
+}
+
+.imagen-panoramica-2{
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.imagen-panoramica-2 > img{
+    width: 98%;
+    height: 100%;
+
+}
+
+.seccion-derecha{
+    margin: 15%;
+}
+
+.resources-links{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.resources-links > a{
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+.titulo-recursos{
+    color: #070B56;
+    font-weight: bolder;
+}
+
+.circulos{
+    margin-top: 20%;
+}
+.div-circulo{
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.div-circulo > p{
+    
+    margin-top: 18%;
+    margin-left: 6%;
+
+}
+
+.dot1 {
+    height: 80px;
+    width: 80px;
+    background-color: #070B56;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 80px;
+    width: 80px;
+    background-color: #FF95B3;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 80px;
+    width: 80px;
+    background-color: #414141;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4 {
+    height: 80px;
+    width: 80px;
+    background-color: #B8B8B8;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.c-texto1{
+    color:#070B56;
+    font-weight: bold;
+}
+
+.c-texto2{
+    color:#FF95B3;
+    font-weight: bold;
+}
+
+.c-texto3{
+    color:#414141;
+    font-weight: bold;
+}
+
+.c-texto4{
+    color:#B8B8B8;
+    font-weight: bold;
+}
+
+.link-rosado{
+    color:#FF95B3
+}
+
+.category-blue-text{
+    color: #070B56;
+    font-weight: bold;
+}
